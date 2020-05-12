@@ -16,4 +16,16 @@ public class Product {
         this.comment = comment;
         this.maxProductCountOnOneShelf = maxProductCountOnOneShelf;
     }
+    public Product() {
+        this.name = "Test";
+        this.description = "Testing";
+        this.expirationDate = "13/06/2021";
+        this.dateOfDeliveryInWarehouse = "12/05/2020";
+        this.makerName = "test.inc";
+        this.unit = "kg";
+        this.availability = "5";
+        this.position = "something";
+        this.comment = "Nothing to say";
+        this.maxProductCountOnOneShelf = 3;
+    }
 }
